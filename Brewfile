@@ -1,11 +1,8 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-
-# Brews (Packages)
 brew "bash-completion"
 brew "bat"
 brew "exa"
@@ -21,10 +18,9 @@ brew "svgo"
 brew "wallpaper"
 brew "zsh"
 brew "zsh-syntax-highlighting"
-
-# Casks (Applications)
 cask "firefox"
 cask "font-fira-code"
+cask "gitkraken"
 cask "google-chrome"
 cask "iterm2"
 cask "messenger"
