@@ -35,8 +35,10 @@ alias change="code ~/.zshrc"
 alias update="source ~/.zshrc"
 
 # List
-alias ls="ls -lAFh"
+# alias ls="ls -lAFh"
+alias ls="exa -laFh --git"
 alias lsa="ls -A"
+alias exa="exa -laFh --git"
 
 # Directories
 alias md="mkdir $1"
