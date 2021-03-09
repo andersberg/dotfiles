@@ -12,3 +12,4 @@ Based on [dotfiles.eieio.xyz](https://dotfiles.eieio.tyz).
 [] Trackpad (Three finger drag and Tap to click)
 [] .zshrc
 [] Git (config and SSH)
+[] Homebrew install
