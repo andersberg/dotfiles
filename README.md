@@ -1,5 +1,6 @@
 # dotfiles
-My dotfiles. 
+
+My dotfiles.
 
 Based on [dotfiles.eieio.xyz](https://dotfiles.eieio.tyz).
 
@@ -11,5 +12,6 @@ Based on [dotfiles.eieio.xyz](https://dotfiles.eieio.tyz).
 - [ ] Mission Control Preferences (don't rearrange spaces)
 - [ ] Finder Show Path Bar
 - [ ] Trackpad (Three finger drag and Tap to click)
-- [ ] .zshrc
+- [x] .zshrc
 - [ ] Git (config and SSH)
+- [x] Homebrew install
