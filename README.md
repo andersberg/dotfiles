@@ -1,9 +1,11 @@
 # dotfiles
-My dotfiles. 
+
+My dotfiles.
 
 Based on [dotfiles.eieio.xyz](https://dotfiles.eieio.tyz).
 
 ## TODO
+
 [] Terminal Preferences
 [] Changed Shell to ZSH
 [] Dock Preferences
