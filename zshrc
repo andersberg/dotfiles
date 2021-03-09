@@ -12,8 +12,6 @@ RPROMPT="%*"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # VARIABLES
-# Syntax highlighting for man pages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # FUNCTIONS
@@ -39,6 +37,7 @@ alias update="source ~/.zshrc"
 alias ls="exa -laFh --git"
 alias lsa="ls -A"
 alias exa="exa -laFh --git"
+alias man=batman
 
 # Directories
 alias md="mkdir $1"
