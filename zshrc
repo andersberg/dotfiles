@@ -7,6 +7,14 @@ PROMPT="
 # Show time
 RPROMPT="%*"
 
+# PATH
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# VARIABLES
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # FUNCTIONS
 # Create directory and change to that directory
 function mkcd () {
