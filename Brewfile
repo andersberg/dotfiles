@@ -19,6 +19,8 @@ brew "git"
 brew "httpie"
 # Move files and folders to the trash
 brew "macos-trash"
+# Mac App Store command-line interface
+brew "mas"
 # CLI for MySQL with auto-completion and syntax highlighting
 brew "mycli"
 # Open source relational database management system
@@ -56,3 +58,9 @@ cask "transmission"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+mas "Battery Indicator", id: 1206020918
+mas "Keynote", id: 409183694
+mas "Lungo", id: 1263070803
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "uBlock", id: 1385985095
