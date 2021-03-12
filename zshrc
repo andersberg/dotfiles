@@ -1,7 +1,12 @@
+echo "Hello from .zshrc"
+
 # PROMPTs
-# Main prompt
-PROMPT="
-%1~ %L %# "
+# Main (left) Prompt
+autoload -U promptinit; promptinit
+prompt pure
+
+# PROMPT="
+# %1~ %L %# "
 
 # Right Prompt
 # Show time
