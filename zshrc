@@ -13,6 +13,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 # VARIABLES
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 # FUNCTIONS
 # Create directory and change to that directory
@@ -38,6 +39,7 @@ alias ls="exa -laFh --git"
 alias lsa="ls -A"
 alias exa="exa -laFh --git"
 alias man=batman
+alias trail='<<<${(F)path}'
 
 # Directories
 alias md="mkdir $1"
