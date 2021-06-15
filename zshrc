@@ -73,3 +73,6 @@ export EDITOR=/usr/bin/nano
 
 # LANGUAGES
 export LC_ALL=en_US.UTF-8
+
+# Autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
