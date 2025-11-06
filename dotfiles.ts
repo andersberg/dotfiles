@@ -15,7 +15,6 @@ const DEFAULT_CONFIG: DotfilesConfig = {
     ".gitconfig",
     ".zshrc",
     ".claude",
-    ".vscode",
     ".nvm",
   ] as const,
   ignore_patterns: [
